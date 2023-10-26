@@ -1,0 +1,49 @@
+
+* { 
+  font-family: 'Lato', sans-serif;
+}
+
+body { 
+  background-color: #ececec;
+}
+
+details {
+  display: block; 
+  width: auto;
+  margin: 10px 0;
+}
+
+details p { 
+  padding-left: 30px;
+}
+
+summary {
+  display: flex; 
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%,   rgba(148,187,233,1) 100%);
+  color: #fff;
+  border-radius: 8px;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+summary::-webkit-details-marker {
+   display: none;
+}
+
+summary:before {
+   content: "+";
+   font-size: 20px;
+   font-weight: bold;
+   margin: 0 5px;
+   padding: 0;
+   width: 20px;
+   text-align: center;
+}
+
+details[open] summary:before {
+  content: "-";
+}

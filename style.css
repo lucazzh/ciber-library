@@ -1,0 +1,86 @@
+body {
+    background-color: #10a629;
+    color: #000;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #24cf41;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba
+  }
+  body {
+    background-color: #06d7295a;
+    color: #000;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #20a32b;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .book h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .book p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+ 
+  header {
+    background-color: #30e04d;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    height: auto;
+    max-width: 100px; /* Defina um valor máximo para limitar o tamanho da logo */
+    max-height: 100px; /* Defina um valor máximo para limitar o tamanho da logo */
+    min-width: 150px; /* Defina um valor mínimo para a largura da logo */
+    min-height: 100px; /* Defina um valor mínimo para a altura da logo */
+  }
